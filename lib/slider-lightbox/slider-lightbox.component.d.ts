@@ -1,16 +1,7 @@
 import { ChangeDetectorRef, OnInit, AfterViewInit, OnDestroy, EventEmitter, ElementRef } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { ImageObject } from '../interface';
 import * as i0 from "@angular/core";
-interface ImageObject {
-    image?: string;
-    thumbImage?: string;
-    alt?: string;
-    title?: string;
-    order?: number;
-    index: number;
-    posterImage?: string;
-    video?: string;
-}
 export declare class SliderLightboxComponent implements OnInit, AfterViewInit, OnDestroy {
     private cdRef;
     private sanitizer;
@@ -63,4 +54,3 @@ export declare class SliderLightboxComponent implements OnInit, AfterViewInit, O
     static ɵfac: i0.ɵɵFactoryDeclaration<SliderLightboxComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<SliderLightboxComponent, "slider-lightbox", never, { "images": { "alias": "images"; "required": false; }; "imageIndex": { "alias": "imageIndex"; "required": false; }; "show": { "alias": "show"; "required": false; }; "videoAutoPlay": { "alias": "videoAutoPlay"; "required": false; }; "direction": { "alias": "direction"; "required": false; }; "paginationShow": { "alias": "paginationShow"; "required": false; }; "animationSpeed": { "alias": "animationSpeed"; "required": false; }; "infinite": { "alias": "infinite"; "required": false; }; "arrowKeyMove": { "alias": "arrowKeyMove"; "required": false; }; "showVideoControls": { "alias": "showVideoControls"; "required": false; }; }, { "close": "close"; "prevImage": "prevImage"; "nextImage": "nextImage"; }, never, never, true, never>;
 }
-export {};

@@ -1,16 +1,7 @@
 import { ChangeDetectorRef, OnInit, OnChanges, DoCheck, SimpleChanges, AfterViewInit, OnDestroy, EventEmitter, ElementRef } from '@angular/core';
 import { RmImageSliderService } from './rm-image-slider.service';
+import { ImageObject } from './interface';
 import * as i0 from "@angular/core";
-interface ImageObject {
-    image?: string;
-    thumbImage?: string;
-    alt?: string;
-    title?: string;
-    order?: number;
-    index: number;
-    posterImage?: string;
-    video?: string;
-}
 export declare class RmImageSliderComponent implements OnChanges, OnInit, DoCheck, AfterViewInit, OnDestroy {
     private cdRef;
     private platformId;
@@ -51,7 +42,7 @@ export declare class RmImageSliderComponent implements OnChanges, OnInit, DoChec
     imagePopup: boolean;
     set direction(dir: string);
     set animationSpeed(data: number);
-    images: Array<ImageObject>;
+    images: Array<object>;
     set slideImage(count: any);
     set autoSlide(count: any);
     set showArrow(flag: any);
@@ -99,4 +90,3 @@ export declare class RmImageSliderComponent implements OnChanges, OnInit, DoChec
     static ɵfac: i0.ɵɵFactoryDeclaration<RmImageSliderComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<RmImageSliderComponent, "rm-image-slider", never, { "imageSize": { "alias": "imageSize"; "required": false; }; "infinite": { "alias": "infinite"; "required": false; }; "imagePopup": { "alias": "imagePopup"; "required": false; }; "direction": { "alias": "direction"; "required": false; }; "animationSpeed": { "alias": "animationSpeed"; "required": false; }; "images": { "alias": "images"; "required": false; }; "slideImage": { "alias": "slideImage"; "required": false; }; "autoSlide": { "alias": "autoSlide"; "required": false; }; "showArrow": { "alias": "showArrow"; "required": false; }; "orderType": { "alias": "orderType"; "required": false; }; "videoAutoPlay": { "alias": "videoAutoPlay"; "required": false; }; "paginationShow": { "alias": "paginationShow"; "required": false; }; "arrowKeyMove": { "alias": "arrowKeyMove"; "required": false; }; "manageImageRatio": { "alias": "manageImageRatio"; "required": false; }; "showVideoControls": { "alias": "showVideoControls"; "required": false; }; "defaultActiveImage": { "alias": "defaultActiveImage"; "required": false; }; "lazyLoading": { "alias": "lazyLoading"; "required": false; }; }, { "imageClick": "imageClick"; "arrowClick": "arrowClick"; "lightboxArrowClick": "lightboxArrowClick"; "lightboxClose": "lightboxClose"; }, never, never, true, never>;
 }
-export {};

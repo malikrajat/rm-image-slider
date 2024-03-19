@@ -1,7 +1,7 @@
 # Angular Image Slider with Lightbox
 
 An Angular responsive image slider with lightbox popup.
-Also support youtube and mp4 video urls.
+Also support youtube and mp4 video urls. It is leazy loading and heigly optimized with standalone component.
 
 (Compatible with Angular Version: 17)
 
@@ -45,7 +45,7 @@ import { RmImageSliderComponent } from 'rm-image-slider';
 **ImageObject format**
 
 ```js
-imageObject: Array<object> = [{
+imageObject: Array<ImageObject> = [{
         image: 'assets/img/slider/1.jpg',
         thumbImage: 'assets/img/slider/1_min.jpeg',
         alt: 'alt of image',
@@ -63,7 +63,7 @@ imageObject: Array<object> = [{
 **Image, Youtube and MP4 url's object format**
 
 ```js
-imageObject: Array<object> = [{
+imageObject: Array<ImageObject> = [{
        video: 'https://youtu.be/....' // Youtube url
    },
 	{
@@ -114,6 +114,8 @@ import { RmImageSliderComponent } from 'rm-image-slider';
 
 @Component({
     selector: 'sample',
+     standalone: true,
+     imports: [RmImageSliderComponent],
         template:`
         <rm-image-slider [images]="imageObject" #nav>
         </rm-image-slider>
