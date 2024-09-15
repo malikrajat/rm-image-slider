@@ -1,14 +1,11 @@
 <a href="https://github.com/malikrajat/rm-image-slider">
-
   <h1 align="center">Image Slider/ carousel</h1>
-
 <p align="center">Advanced, customizable, Optimized ,Minimal, light-weight and fully customizable pure angular component for carousel.</p>
-
 </a>
+
 [![npm](https://img.shields.io/npm/v/ngx-bar-rating.svg)](https://www.npmjs.com/package/rm-image-slider)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/malikrajat/rm-image-slider)
 
-__
 # Angular Image Slider with Lightbox
 
 An Angular responsive image slider with lightbox popup.
