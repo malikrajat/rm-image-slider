@@ -1,3 +1,14 @@
+<a href="https://github.com/malikrajat/rm-image-slider">
+
+  <h1 align="center">Image Slider/ carousel</h1>
+
+<p align="center">Advanced, customizable, Optimized ,Minimal, light-weight and fully customizable pure angular component for carousel.</p>
+
+</a>
+[![npm](https://img.shields.io/npm/v/ngx-bar-rating.svg)](https://www.npmjs.com/package/rm-image-slider)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/malikrajat/rm-image-slider)
+
+__
 # Angular Image Slider with Lightbox
 
 An Angular responsive image slider with lightbox popup.
@@ -17,14 +28,22 @@ Also support youtube and mp4 video urls. It is leazy loading and heigly optimize
 
 # Installation
 
-`npm install rm-image-slider --save`
+Install rm-image-slider with npm amd yarn
+
+```bash
+
+  npm: npm install rm-image-slider--save 
+
+  yarn: yarn add rm-image-slider
+
+```
 
 # Setup :
 
 **Import module in your component:**
 
 ```typescript
-import { RmImageSliderComponent } from 'rm-image-slider';
+import { RmImageSliderComponent, ImageObject } from 'rm-image-slider';
 ...
 @Component({
   selector: '',
@@ -49,13 +68,15 @@ imageObject: Array<ImageObject> = [{
         image: 'assets/img/slider/1.jpg',
         thumbImage: 'assets/img/slider/1_min.jpeg',
         alt: 'alt of image',
-        title: 'title of image'
+        title: 'title of image',
+        index: 1
     }, {
         image: '.../iOe/xHHf4nf8AE75h3j1x64ZmZ//Z==', // Support base64 image
         thumbImage: '.../iOe/xHHf4nf8AE75h3j1x64ZmZ//Z==', // Support base64 image
         title: 'Image title', //Optional: You can use this key if want to show image with title
         alt: 'Image alt', //Optional: You can use this key if want to show image with alt
-        order: 1 //Optional: if you pass this key then slider images will be arrange according @input: slideOrderType
+        order: 1, //Optional: if you pass this key then slider images will be arrange according @input: slideOrderType
+        index: 2
     }
 ];
 ```
@@ -65,19 +86,23 @@ imageObject: Array<ImageObject> = [{
 ```js
 imageObject: Array<ImageObject> = [{
        video: 'https://youtu.be/....' // Youtube url
+        index: 1
    },
 	{
 		video: 'assets/video/********.mp4', // MP4 Video url
+    index: 2
 	},
 	{
-		video: 'assets/video/movie2.mp4',
-       posterImage: 'assets/img/slider/2_min.jpeg', //Optional: You can use this key if you want to show video poster image in slider
-       title: 'Image title'
+		video: 'assets/video/movie2.mp4', 
+    posterImage: 'assets/img/slider/2_min.jpeg', //Optional: You can use this key if you want to show video poster image in slider
+    title: 'Image title',
+    index: 3
    },
 	{
 		image: 'assets/img/slider/1.jpg',
-       thumbImage: 'assets/img/slider/1_min.jpeg',
-       alt: 'Image alt'
+    thumbImage: 'assets/img/slider/1_min.jpeg',
+    alt: 'Image alt',
+    index: 4
 	}
    ...
 ];
@@ -136,3 +161,26 @@ class Sample {
     }
 }
 ```
+<a name="issues"/>
+
+## Issues
+
+If you identify any errors in this component, or have an idea for an improvement, please open
+an [issue](https://github.com/malikrajat/rm-image-slider/issues). I am excited to see what the community thinks of this
+project, and I would love your input!
+
+## Author services
+
+Are you interested in this library but lacks features? Write to the author, he can do it for you.
+
+## Credits
+
+The library is inspired by one other library.
+
+
+<a name="author"/>
+
+## Author
+
+**Rajat Malik**
+- [github/malikrajat](https://github.com/malikrajat)

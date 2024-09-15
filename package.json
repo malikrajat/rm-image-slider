@@ -1,7 +1,8 @@
 {
   "name": "rm-image-slider",
+  "version": "18.1.5",
   "description": "Angular Image slider with lightbox. An Angular responsive image slider with lightbox popup. Also support youtube url, image base64 string and mp4 video urls and base64 string.",
-  "version": "18.1.4",
+  "license": "MIT",
   "keywords": [
     "Angular",
     "Angular image slider",
@@ -10,17 +11,24 @@
     "responsive slider",
     "slideshow",
     "carousel",
-    "slider"
+    "slider",
+    "security",
+    "performance",
+    "treeshakable",
+    "tree-shakable"
   ],
   "author": {
     "name": "Rajat Malik",
     "email": "mr.rajatmalik@gmail.com",
     "url": "https://www.linkedin.com/in/errajatmalik/"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/malikrajat/rm-image-slider#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/malikrajat/rm-image-slider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malikrajat/rm-image-slider/issues"
   },
   "peerDependencies": {
     "@angular/common": "^18.1.4",
