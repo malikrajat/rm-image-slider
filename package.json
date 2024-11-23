@@ -1,6 +1,6 @@
 {
   "name": "rm-image-slider",
-  "version": "18.2.10",
+  "version": "19.0.0",
   "description": "Angular Image slider with lightbox. An Angular responsive image slider with lightbox popup. Also support youtube url, image base64 string and mp4 video urls and base64 string.",
   "license": "MIT",
   "keywords": [
@@ -31,8 +31,8 @@
     "url": "https://github.com/malikrajat/rm-image-slider/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^18.2.10",
-    "@angular/core": "^18.2.10"
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -46,8 +46,6 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/rm-image-slider.mjs",
-      "esm": "./esm2022/rm-image-slider.mjs",
       "default": "./fesm2022/rm-image-slider.mjs"
     }
   }
