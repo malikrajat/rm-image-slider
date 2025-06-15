@@ -11,7 +11,6 @@
 An Angular responsive image slider with lightbox popup.
 Also support youtube and mp4 video urls. It is leazy loading and heigly optimized with standalone component.
 
-(Compatible Till Angular Version: 19)
 
 ## Features!
 
