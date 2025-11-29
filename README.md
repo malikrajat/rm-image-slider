@@ -17,7 +17,7 @@ Also support youtube and mp4 video urls. It is leazy loading and heigly optimize
 
 <div align="center">
   
-  ![rm-image-slider Demo](https://github.com/malikrajat/rm-image-slider/assets/rm-image-slider-demo.giff)
+  ![rm-image-slider Demo](https://github.com/malikrajat/rm-image-slider/blob/main/assets/rm-image-slider-demo.gif)
   
   *Experience the power: Image carousel, lightbox popup, video support, and touch gestures - all in one lightweight component!*
 
