@@ -1,6 +1,6 @@
 {
   "name": "rm-image-slider",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "description": "Angular Image slider with lightbox. An Angular responsive image slider with lightbox popup. Also support youtube url, image base64 string and mp4 video urls and base64 string.",
   "license": "MIT",
   "keywords": [
@@ -20,32 +20,69 @@
   "author": {
     "name": "Rajat Malik",
     "email": "mr.rajatmalik@gmail.com",
-    "url": "https://www.linkedin.com/in/errajatmalik/"
+    "url": "https://www.rajatmalik.dev/"
   },
+  "contributors": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
   "homepage": "https://github.com/malikrajat/rm-image-slider#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/malikrajat/rm-image-slider.git"
   },
   "bugs": {
-    "url": "https://github.com/malikrajat/rm-image-slider/issues"
+    "url": "https://github.com/malikrajat/rm-image-slider/issues",
+    "email": "mr.rajatmalik@gmail.com"
   },
   "peerDependencies": {
-    "@angular/core": "^20.0.0",
-    "@angular/common": "^20.0.0"
+    "@angular/core": "^20.0.0 || ^21.0.0",
+    "@angular/common": "^20.0.0 || ^21.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.6.0"
   },
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/malikrajat"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "ng-add": {
+    "save": "dependencies"
+  },
   "module": "fesm2022/rm-image-slider.mjs",
-  "typings": "index.d.ts",
+  "typings": "types/rm-image-slider.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./index.d.ts",
+      "types": "./types/rm-image-slider.d.ts",
       "default": "./fesm2022/rm-image-slider.mjs"
     }
   }
