@@ -73,8 +73,8 @@
       <sub>Try all features live in your browser</sub>
     </td>
     <td align="center" width="50%">
-      <a href="https://github.com/malikrajat/rm-image-slider/main#quick-start" target="_blank">
-        <img src="https://img.shields.io/badge/Code_Examples-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Examples"/>
+      <a href="#quick-start">
+        <img src="https://img.shields.io/badge/Code_Examples-181717?style=for-the-badge&logo=github&logoColor=white" alt="Examples"/>
       </a>
       <br/><br/>
       <sub><b>Complete Examples</b></sub><br/>
@@ -105,6 +105,7 @@
 
 ---
 
+<a id="quick-start"></a>
 # Quick Start
 
 Install rm-image-slider with npm and yarn
