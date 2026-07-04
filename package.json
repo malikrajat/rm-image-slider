@@ -1,7 +1,7 @@
 {
   "name": "rm-image-slider",
-  "version": "21.0.0",
-  "description": "Angular Image slider with lightbox. An Angular responsive image slider with lightbox popup. Also support youtube url, image base64 string and mp4 video urls and base64 string.",
+  "version": "22.0.0",
+  "description": "Angular image slider and carousel component with lightbox popup, video support (YouTube MP4), touch gestures, lazy loading, responsive design, and accessibility (WCAG). Lightweight, standalone, tree-shakable Angular library.",
   "license": "MIT",
   "keywords": [
     "Angular",
@@ -12,10 +12,49 @@
     "slideshow",
     "carousel",
     "slider",
-    "security",
+    "lightbox",
+    "image gallery",
+    "image carousel",
+    "video gallery",
+    "youtube video",
+    "mp4 video",
+    "base64 image",
+    "touch gestures",
+    "swipe",
+    "mobile slider",
+    "lazy loading",
+    "AOT compatible",
+    "SSR compatible",
+    "standalone component",
+    "Ivy compatible",
+    "accessibility",
+    "a11y",
+    "keyboard navigation",
+    "WCAG",
+    "auto slide",
+    "infinite scroll",
+    "responsive images",
+    "mobile responsive",
+    "touch support",
+    "gallery lightbox",
+    "image popup",
+    "video popup",
+    "ng-lightbox",
+    "angular lightbox",
+    "carousel component",
+    "slider component",
+    "angular component",
+    "ng-carousel",
+    "image viewer",
+    "media slider",
+    "media gallery",
+    "angular library",
+    "typescript",
+    "tree-shakable",
+    "no dependencies",
+    "lightweight",
     "performance",
-    "treeshakable",
-    "tree-shakable"
+    "optimized"
   ],
   "author": {
     "name": "Rajat Malik",
@@ -44,8 +83,8 @@
     "email": "mr.rajatmalik@gmail.com"
   },
   "peerDependencies": {
-    "@angular/core": "^20.0.0 || ^21.0.0",
-    "@angular/common": "^20.0.0 || ^21.0.0"
+    "@angular/core": "^20.0.0 || ^26.0.0",
+    "@angular/common": "^20.0.0 || ^26.0.0"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -75,6 +114,19 @@
   "ng-add": {
     "save": "dependencies"
   },
+  "ng-update": {
+    "packageGroup": [
+      "rm-image-slider"
+    ]
+  },
+  "directories": {
+    "lib": "./src",
+    "doc": "./docs"
+  },
+  "packageManager": "pnpm@10.11.1",
+  "type": "module",
+  "private": false,
+  "readme": "README.md",
   "module": "fesm2022/rm-image-slider.mjs",
   "typings": "types/rm-image-slider.d.ts",
   "exports": {
